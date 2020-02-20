@@ -7,7 +7,7 @@ public class Main {
         ArrayList<Figure> a= new ArrayList<>();
         Point p1= new Point(1,2);
         Point p2= new Point(4,5);
-        Point p3= new Point(8,10);
+        Point p3= new Point(8,15);
 
         Circle c= new Circle(p1,p2);
         Rectangle r= new Rectangle(p1,p3);
