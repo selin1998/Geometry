@@ -28,8 +28,8 @@ public class Circle extends Figure{
     }
 
     int area(){
-        int radius=(int)Math.sqrt(getP2().getX()-getP1().getX()) + (int)Math.sqrt(getP2().getY()-getP1().getY()) ;
-        this.area= (int)Math.PI*((int)Math.sqrt(radius));
+        int radius=(int)Math.pow(getP2().getX()-getP1().getX(),2) + (int)Math.pow(getP2().getY()-getP1().getY(),2) ;
+        this.area= (int)Math.PI*((int)Math.pow(radius,2));
         return this.area;
 
     }
